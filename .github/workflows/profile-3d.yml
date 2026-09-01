@@ -2,6 +2,9 @@ name: Generate 3D contribution landscape
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/profile-animation-trigger"
 
 permissions:
   contents: write
@@ -24,10 +27,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit updated 3D assets
+      - name: Generate light and dark contribution animations
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-contribution-grid-snake.svg?palette=github-light&color_snake=%23099268
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2322D3EE
+
+      - name: Commit updated profile animations
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-3d-contrib
-          git diff --cached --quiet || git commit -m "chore: refresh 3D contribution landscape"
+          git add profile-3d-contrib assets/github-contribution-grid-snake*.svg
+          git diff --cached --quiet || git commit -m "chore: generate profile animations"
           git push
