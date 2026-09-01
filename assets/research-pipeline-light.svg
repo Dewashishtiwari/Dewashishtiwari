@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250" role="img" aria-labelledby="title">
+  <title id="title">Research pipeline: emissions and climate, atmosphere, exposure, and health and equity</title>
+  <defs><linearGradient id="line" x1="0" x2="1"><stop stop-color="#0C8599"/><stop offset=".5" stop-color="#099268"/><stop offset="1" stop-color="#E67700"/></linearGradient></defs>
+  <rect width="1400" height="250" rx="24" fill="#F3F9FC"/><path d="M214 125H1186" stroke="#CBD5E1" stroke-width="8" stroke-linecap="round"/><path d="M214 125H1186" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(205 125)"><circle r="59" fill="#FFFFFF" stroke="#0C8599" stroke-width="3"/><text y="-7" fill="#102A43" font-size="21" font-weight="700">EMISSIONS</text><text y="21" fill="#526D82" font-size="15">&amp; CLIMATE</text></g>
+    <g transform="translate(535 125)"><circle r="59" fill="#FFFFFF" stroke="#1971C2" stroke-width="3"/><text y="-7" fill="#102A43" font-size="21" font-weight="700">ATMOSPHERE</text><text y="21" fill="#526D82" font-size="15">MODELS + DATA</text></g>
+    <g transform="translate(865 125)"><circle r="59" fill="#FFFFFF" stroke="#099268" stroke-width="3"/><text y="-7" fill="#102A43" font-size="21" font-weight="700">EXPOSURE</text><text y="21" fill="#526D82" font-size="15">PLACE + PEOPLE</text></g>
+    <g transform="translate(1195 125)"><circle r="59" fill="#FFFFFF" stroke="#E67700" stroke-width="3"/><text y="-7" fill="#102A43" font-size="21" font-weight="700">HEALTH</text><text y="21" fill="#526D82" font-size="15">&amp; EQUITY</text></g>
+    <text x="370" y="95" fill="#66788A" font-size="13">WRF-Chem · ECHAM-HAM</text><text x="700" y="95" fill="#66788A" font-size="13">satellite · reanalysis · GIS</text><text x="1030" y="95" fill="#66788A" font-size="13">risk · mortality · vulnerability</text>
+  </g>
+</svg>
+

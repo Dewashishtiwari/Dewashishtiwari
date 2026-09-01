@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">Dewashish Tiwari research profile</title>
+  <desc id="desc">A light atmospheric science banner showing particles, climate waves, data networks, and the research themes air quality, climate extremes, and environmental health.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6FBFF"/><stop offset=".58" stop-color="#E7F5FF"/><stop offset="1" stop-color="#E6FCF5"/></linearGradient><linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#087F9C"/><stop offset=".55" stop-color="#099268"/><stop offset="1" stop-color="#E67700"/></linearGradient><pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#0B7285" stroke-opacity=".08"/></pattern></defs>
+  <rect width="1400" height="360" rx="28" fill="url(#bg)"/><rect width="1400" height="360" rx="28" fill="url(#grid)"/>
+  <g opacity=".55" fill="none"><path d="M830 278c98-92 174-130 264-116 80 12 112 72 232 35" stroke="#0C8599" stroke-width="2"/><path d="M804 305c120-95 228-119 319-80 77 33 134 41 239-1" stroke="#099268" stroke-width="2"/><path d="M865 330c100-67 190-73 269-31 65 35 133 33 227-12" stroke="#E67700" stroke-width="2"/></g>
+  <g stroke="#0B7285" stroke-opacity=".5" fill="#F6FBFF"><path d="M1035 76L1160 42l126 72-18 112-132 40-105-73z" fill="none"/><path d="M1035 76l132 77 119-39M1160 42l7 111-31 113m-105-73 136-40 101 73" fill="none"/><g fill="#0C8599"><circle cx="1035" cy="76" r="5"/><circle cx="1160" cy="42" r="5"/><circle cx="1286" cy="114" r="5"/><circle cx="1268" cy="226" r="5"/><circle cx="1136" cy="266" r="5"/><circle cx="1031" cy="193" r="5"/><circle cx="1167" cy="153" r="7" fill="#099268"/></g></g>
+  <g opacity=".72"><circle cx="940" cy="88" r="7" fill="#E67700"/><circle cx="982" cy="126" r="4" fill="#0C8599"/><circle cx="916" cy="150" r="11" fill="#20C997" fill-opacity=".45"/><circle cx="1340" cy="78" r="8" fill="#E67700" fill-opacity=".75"/><circle cx="1312" cy="292" r="5" fill="#0C8599"/></g>
+  <rect x="68" y="67" width="7" height="148" rx="3.5" fill="url(#accent)"/>
+  <text x="102" y="126" fill="#102A43" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="750" letter-spacing=".3">Dewashish Tiwari</text>
+  <text x="104" y="174" fill="#087F9C" font-family="JetBrains Mono,Consolas,monospace" font-size="23">ATMOSPHERIC SCIENCE  ·  CLIMATE  ·  HEALTH</text>
+  <text x="104" y="224" fill="#334E68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">Air pollution modelling  ×  climate extremes  ×  socioeconomic vulnerability</text>
+  <rect x="104" y="265" width="570" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="104" y="304" fill="#526D82" font-family="JetBrains Mono,Consolas,monospace" font-size="17">WRF-Chem  |  Earth-system data  |  Geospatial analytics  |  Environmental justice</text>
+</svg>
+
